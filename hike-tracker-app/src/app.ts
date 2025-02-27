@@ -3,6 +3,11 @@ import { HikeList, EquipmentList, HikeForm } from './components';
 import { addHike, getHikes, addEquipment } from './services';
 import { Hike, Equipment } from './models';
 
+export function getHikes(): Hike[] {
+    // implementation that returns an array of Hike objects
+    return []; // replace with actual implementation
+}
+
 class HikeTrackerApp {
     private hikes: Hike[] = [];
     private equipment: Equipment[] = [];
